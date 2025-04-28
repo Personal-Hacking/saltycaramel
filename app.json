@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "saltycaramel",
+    "slug": "saltycaramel",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.abhishekvash.saltycaramel"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.abhishekvash.saltycaramel"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ea364839-73d6-4a4b-8e42-18ec5e2a5576"
+      }
+    },
+    "owner": "abhishekvash",
+    "updates": {
+      "url": "https://u.expo.dev/ea364839-73d6-4a4b-8e42-18ec5e2a5576"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
